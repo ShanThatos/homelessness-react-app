@@ -3,9 +3,11 @@ import json
 def main():
     lines = readUntilEmpty("./demo1_data.txt")
     
+    def normalizeNumToPercent(numStr):
+        return {"v": int(numStr), "f": f"{int(numStr)}%"}
     def normalizeLine(line):
         x = line.replace(r"%", "").split(" ")
-        return " ".join(x[:-3]), int(x[-3]), int(x[-2]), int(x[-1])
+        return " ".join(x[:-3]), *[normalizeNumToPercent(x) for x in x[-3:]]
         # x = line.split(" ")
         # return " ".join(x[:-3]), x[-3], x[-2], x[-1]
     
@@ -16,7 +18,7 @@ def main():
         "chart_type": "line",
         "xaxis": {
             "name": "Age", 
-            "labels": ["Age 17", "Age 19", "Age 21"]
+            "labels": ["Age 17 (FY 2014)", "Age 19 (FY 2016)", "Age 21 (FY 2018)"]
         }, 
         "yaxis": {
             "name": "Percent Homeless"

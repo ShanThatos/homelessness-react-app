@@ -49,7 +49,6 @@ Washington 37% 25% 32%
 West Virginia 11% 25% 14%
 Wisconsin 19% 24% 38%
 Wyoming 21% 28% 30%
-Puerto Rico 0% 0% 0%
 National 17% 20% 29%
 
 

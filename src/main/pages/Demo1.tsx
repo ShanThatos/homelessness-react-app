@@ -8,7 +8,10 @@ export const Demo1 = () => {
 
   const fullChartData = data.google_chart_data;
   const chartOptions = {
-    title: data.name
+    title: data.name,
+    vAxis: {
+      format: "#'%'"
+    }
   };
 
   const columnsToInclude = ["Age"].concat(displayColumns);
@@ -31,28 +34,54 @@ export const Demo1 = () => {
       <h1>Demo 1</h1>
       <div className="mx-auto">
         <div className="d-flex flex-row justify-content-center align-items-stretch" style={{ maxHeight: "500px" }}>
-          <div>
-            <Chart
-              chartType="LineChart"
-              width="600px"
-              height="400px"
-              data={chartData}
-              options={chartOptions}
-            />
-          </div>
-          <div className="d-flex flex-column flex-wrap" style={{ width: "500px" }}>
-            {fullChartData[0].slice(1).map(column => (
-              <div key={column} className="d-flex flex-row me-3">
-                <input
-                  className="form-check-input me-1"
-                  type="checkbox"
-                  value={column}
-                  checked={displayColumns.includes(column.toString())}
-                  onChange={handleColumnChange}
-                />
-                <span>{column}</span>
+          <div style={{ minWidth: "500px" }}>
+            {displayColumns.length > 0 &&
+              <Chart
+                chartType="LineChart"
+                width="600px"
+                height="400px"
+                data={chartData}
+                options={chartOptions}
+              />
+            }
+            {displayColumns.length == 0 &&
+              <div className="h-100 d-flex justify-content-center align-items-center">
+                <h5>Select columns to display</h5>
               </div>
-            ))}
+            }
+          </div>
+          <div style={{ minWidth: "500px" }}>
+            <div className="mb-2">
+              <button
+                className="btn btn-primary mx-2"
+                onClick={() => setDisplayColumns(fullChartData[0].slice(1).map(x => x.toString()))}
+              >
+                Select All
+              </button>
+              <button
+                className="btn btn-primary mx-2"
+                onClick={() => setDisplayColumns([])}
+              >
+                Clear All
+              </button>
+            </div>
+            <div className="w-100 h-100 d-flex flex-column flex-wrap">
+              {fullChartData[0].slice(1).map(column => {
+                const colDisplay = column.toString();
+                return (
+                  <div key={colDisplay} className="d-flex flex-row me-3">
+                    <input
+                      className="form-check-input me-1"
+                      type="checkbox"
+                      value={colDisplay}
+                      checked={displayColumns.includes(colDisplay)}
+                      onChange={handleColumnChange}
+                    />
+                    <span>{colDisplay}</span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
