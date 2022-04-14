@@ -33,7 +33,7 @@ export const Demo1 = () => {
     <div className="text-center p-4">
       <h1>Demo 1</h1>
       <div className="mx-auto">
-        <div className="d-flex flex-row justify-content-center align-items-stretch" style={{ maxHeight: "500px" }}>
+        <div className="d-flex flex-row flex-wrap justify-content-center align-items-stretch">
           <div style={{ minWidth: "500px" }}>
             {displayColumns.length > 0 &&
               <Chart
@@ -50,7 +50,7 @@ export const Demo1 = () => {
               </div>
             }
           </div>
-          <div style={{ minWidth: "500px" }}>
+          <div style={{ minWidth: "500px", maxHeight: "500px" }}>
             <div className="mb-2">
               <button
                 className="btn btn-primary mx-2"
