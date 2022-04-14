@@ -1,0 +1,667 @@
+{
+  "name": "Percent Reporting Experiences with Homelessness",
+  "chart_type": "line",
+  "xaxis": {
+    "name": "Age",
+    "labels": [
+      "Age 17",
+      "Age 19",
+      "Age 21"
+    ]
+  },
+  "yaxis": {
+    "name": "Percent Homeless"
+  },
+  "lines": [
+    {
+      "name": "Alabama",
+      "data": [
+        4,
+        7,
+        21
+      ]
+    },
+    {
+      "name": "Alaska",
+      "data": [
+        22,
+        36,
+        44
+      ]
+    },
+    {
+      "name": "Arizona",
+      "data": [
+        15,
+        8,
+        17
+      ]
+    },
+    {
+      "name": "Arkansas",
+      "data": [
+        27,
+        13,
+        18
+      ]
+    },
+    {
+      "name": "California",
+      "data": [
+        14,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "Colorado",
+      "data": [
+        19,
+        25,
+        36
+      ]
+    },
+    {
+      "name": "Connecticut",
+      "data": [
+        11,
+        15,
+        17
+      ]
+    },
+    {
+      "name": "Delaware",
+      "data": [
+        18,
+        31,
+        35
+      ]
+    },
+    {
+      "name": "District of Columbia",
+      "data": [
+        25,
+        19,
+        44
+      ]
+    },
+    {
+      "name": "Florida",
+      "data": [
+        20,
+        18,
+        37
+      ]
+    },
+    {
+      "name": "Georgia",
+      "data": [
+        14,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "Hawaii",
+      "data": [
+        30,
+        44,
+        27
+      ]
+    },
+    {
+      "name": "Idaho",
+      "data": [
+        32,
+        55,
+        58
+      ]
+    },
+    {
+      "name": "Illinois",
+      "data": [
+        14,
+        14,
+        7
+      ]
+    },
+    {
+      "name": "Indiana",
+      "data": [
+        17,
+        16,
+        19
+      ]
+    },
+    {
+      "name": "Iowa",
+      "data": [
+        20,
+        23,
+        27
+      ]
+    },
+    {
+      "name": "Kansas",
+      "data": [
+        14,
+        25,
+        35
+      ]
+    },
+    {
+      "name": "Kentucky",
+      "data": [
+        22,
+        28,
+        31
+      ]
+    },
+    {
+      "name": "Louisiana",
+      "data": [
+        8,
+        16,
+        23
+      ]
+    },
+    {
+      "name": "Maine",
+      "data": [
+        31,
+        23,
+        31
+      ]
+    },
+    {
+      "name": "Maryland",
+      "data": [
+        8,
+        9,
+        18
+      ]
+    },
+    {
+      "name": "Massachusetts",
+      "data": [
+        18,
+        25,
+        25
+      ]
+    },
+    {
+      "name": "Michigan",
+      "data": [
+        21,
+        24,
+        33
+      ]
+    },
+    {
+      "name": "Minnesota",
+      "data": [
+        18,
+        28,
+        34
+      ]
+    },
+    {
+      "name": "Mississippi",
+      "data": [
+        5,
+        17,
+        20
+      ]
+    },
+    {
+      "name": "Missouri",
+      "data": [
+        17,
+        9,
+        17
+      ]
+    },
+    {
+      "name": "Montana",
+      "data": [
+        27,
+        53,
+        50
+      ]
+    },
+    {
+      "name": "Nebraska",
+      "data": [
+        13,
+        15,
+        30
+      ]
+    },
+    {
+      "name": "Nevada",
+      "data": [
+        33,
+        41,
+        42
+      ]
+    },
+    {
+      "name": "New Hampshire",
+      "data": [
+        9,
+        22,
+        32
+      ]
+    },
+    {
+      "name": "New Jersey",
+      "data": [
+        8,
+        11,
+        16
+      ]
+    },
+    {
+      "name": "New Mexico",
+      "data": [
+        43,
+        23,
+        44
+      ]
+    },
+    {
+      "name": "New York",
+      "data": [
+        15,
+        10,
+        23
+      ]
+    },
+    {
+      "name": "North Carolina",
+      "data": [
+        27,
+        27,
+        33
+      ]
+    },
+    {
+      "name": "North Dakota",
+      "data": [
+        22,
+        24,
+        19
+      ]
+    },
+    {
+      "name": "Ohio",
+      "data": [
+        15,
+        29,
+        37
+      ]
+    },
+    {
+      "name": "Oklahoma",
+      "data": [
+        33,
+        29,
+        46
+      ]
+    },
+    {
+      "name": "Oregon",
+      "data": [
+        25,
+        16,
+        32
+      ]
+    },
+    {
+      "name": "Pennsylvania",
+      "data": [
+        16,
+        27,
+        32
+      ]
+    },
+    {
+      "name": "Rhode Island",
+      "data": [
+        17,
+        19,
+        28
+      ]
+    },
+    {
+      "name": "South Carolina",
+      "data": [
+        33,
+        16,
+        34
+      ]
+    },
+    {
+      "name": "South Dakota",
+      "data": [
+        6,
+        34,
+        42
+      ]
+    },
+    {
+      "name": "Tennessee",
+      "data": [
+        7,
+        23,
+        33
+      ]
+    },
+    {
+      "name": "Texas",
+      "data": [
+        20,
+        25,
+        33
+      ]
+    },
+    {
+      "name": "Utah",
+      "data": [
+        24,
+        14,
+        23
+      ]
+    },
+    {
+      "name": "Vermont",
+      "data": [
+        5,
+        44,
+        54
+      ]
+    },
+    {
+      "name": "Virginia",
+      "data": [
+        17,
+        16,
+        36
+      ]
+    },
+    {
+      "name": "Washington",
+      "data": [
+        37,
+        25,
+        32
+      ]
+    },
+    {
+      "name": "West Virginia",
+      "data": [
+        11,
+        25,
+        14
+      ]
+    },
+    {
+      "name": "Wisconsin",
+      "data": [
+        19,
+        24,
+        38
+      ]
+    },
+    {
+      "name": "Wyoming",
+      "data": [
+        21,
+        28,
+        30
+      ]
+    },
+    {
+      "name": "Puerto Rico",
+      "data": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "National",
+      "data": [
+        17,
+        20,
+        29
+      ]
+    }
+  ],
+  "google_chart_data": [
+    [
+      "Age",
+      "Alabama",
+      "Alaska",
+      "Arizona",
+      "Arkansas",
+      "California",
+      "Colorado",
+      "Connecticut",
+      "Delaware",
+      "District of Columbia",
+      "Florida",
+      "Georgia",
+      "Hawaii",
+      "Idaho",
+      "Illinois",
+      "Indiana",
+      "Iowa",
+      "Kansas",
+      "Kentucky",
+      "Louisiana",
+      "Maine",
+      "Maryland",
+      "Massachusetts",
+      "Michigan",
+      "Minnesota",
+      "Mississippi",
+      "Missouri",
+      "Montana",
+      "Nebraska",
+      "Nevada",
+      "New Hampshire",
+      "New Jersey",
+      "New Mexico",
+      "New York",
+      "North Carolina",
+      "North Dakota",
+      "Ohio",
+      "Oklahoma",
+      "Oregon",
+      "Pennsylvania",
+      "Rhode Island",
+      "South Carolina",
+      "South Dakota",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Vermont",
+      "Virginia",
+      "Washington",
+      "West Virginia",
+      "Wisconsin",
+      "Wyoming",
+      "Puerto Rico",
+      "National"
+    ],
+    [
+      "Age 17",
+      4,
+      22,
+      15,
+      27,
+      14,
+      19,
+      11,
+      18,
+      25,
+      20,
+      14,
+      30,
+      32,
+      14,
+      17,
+      20,
+      14,
+      22,
+      8,
+      31,
+      8,
+      18,
+      21,
+      18,
+      5,
+      17,
+      27,
+      13,
+      33,
+      9,
+      8,
+      43,
+      15,
+      27,
+      22,
+      15,
+      33,
+      25,
+      16,
+      17,
+      33,
+      6,
+      7,
+      20,
+      24,
+      5,
+      17,
+      37,
+      11,
+      19,
+      21,
+      0,
+      17
+    ],
+    [
+      "Age 19",
+      7,
+      36,
+      8,
+      13,
+      18,
+      25,
+      15,
+      31,
+      19,
+      18,
+      17,
+      44,
+      55,
+      14,
+      16,
+      23,
+      25,
+      28,
+      16,
+      23,
+      9,
+      25,
+      24,
+      28,
+      17,
+      9,
+      53,
+      15,
+      41,
+      22,
+      11,
+      23,
+      10,
+      27,
+      24,
+      29,
+      29,
+      16,
+      27,
+      19,
+      16,
+      34,
+      23,
+      25,
+      14,
+      44,
+      16,
+      25,
+      25,
+      24,
+      28,
+      0,
+      20
+    ],
+    [
+      "Age 21",
+      21,
+      44,
+      17,
+      18,
+      25,
+      36,
+      17,
+      35,
+      44,
+      37,
+      25,
+      27,
+      58,
+      7,
+      19,
+      27,
+      35,
+      31,
+      23,
+      31,
+      18,
+      25,
+      33,
+      34,
+      20,
+      17,
+      50,
+      30,
+      42,
+      32,
+      16,
+      44,
+      23,
+      33,
+      19,
+      37,
+      46,
+      32,
+      32,
+      28,
+      34,
+      42,
+      33,
+      33,
+      23,
+      54,
+      36,
+      32,
+      14,
+      38,
+      30,
+      0,
+      29
+    ]
+  ]
+}

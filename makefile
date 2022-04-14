@@ -9,7 +9,7 @@ push:
 	git commit -m "$(m)"
 	git push origin master
 
-start:
+run start: format
 	npm start
 
 deploy:
