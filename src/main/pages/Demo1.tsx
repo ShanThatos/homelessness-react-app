@@ -22,7 +22,7 @@ export const Demo1 = () => {
   const handleColumnChange = (event: any) => {
     const column = event.currentTarget.value;
     if (event.currentTarget.checked && !displayColumns.includes(column))
-      setDisplayColumns([...displayColumns, column]);
+      setDisplayColumns([...displayColumns, column].sort());
     else if (!event.currentTarget.checked && displayColumns.includes(column)) {
       const newColumns = displayColumns.filter(x => x !== column);
       setDisplayColumns(newColumns);
@@ -54,7 +54,7 @@ export const Demo1 = () => {
             <div className="mb-2">
               <button
                 className="btn btn-primary mx-2"
-                onClick={() => setDisplayColumns(fullChartData[0].slice(1).map(x => x.toString()))}
+                onClick={() => setDisplayColumns(fullChartData[0].slice(1).map(x => x.toString()).sort())}
               >
                 Select All
               </button>
