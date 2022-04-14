@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homeless-react-app/static/css/main.e6c13ad2.css",
+    "main.js": "/homeless-react-app/static/js/main.95a9aa6e.js",
+    "index.html": "/homeless-react-app/index.html",
+    "main.e6c13ad2.css.map": "/homeless-react-app/static/css/main.e6c13ad2.css.map",
+    "main.95a9aa6e.js.map": "/homeless-react-app/static/js/main.95a9aa6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.95a9aa6e.js"
+  ]
+}
