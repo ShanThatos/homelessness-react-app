@@ -1,8 +1,8 @@
 
-m := "Updates"
+m := Updates
 push:
 	git add .
-	git commit -m $(m)
+	git commit -m "$(m)"
 	git push origin master
 
 start:
