@@ -38,7 +38,7 @@ export const Demo1 = () => {
             {displayColumns.length > 0 &&
               <Chart
                 chartType="LineChart"
-                width="600px"
+                width="700px"
                 height="400px"
                 data={chartData}
                 options={chartOptions}
