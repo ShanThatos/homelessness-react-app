@@ -1,3 +1,7 @@
+.DEFAULT_GOAL := all
+
+format:
+	eslint --ext tsx --fix src
 
 m := Updates
 push:
@@ -10,3 +14,5 @@ start:
 
 deploy:
 	npm run deploy
+
+all: format deploy push
